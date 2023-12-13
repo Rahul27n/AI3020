@@ -1,0 +1,191 @@
+192.168.0.108 - IP Address (For Laptop Off Campus using Wifi)
+
+PS C:\Users\nelak> tracert www.google.com
+
+Tracing route to www.google.com [142.250.183.228]
+over a maximum of 30 hops:
+
+  1     7 ms    20 ms     1 ms  192.168.0.1
+  2     5 ms    16 ms     6 ms  10.141.0.1
+  3     7 ms     2 ms     2 ms  broadband.actcorp.in [183.83.249.10] (Beam Telecom Pvt. Ltd. - AS18209)
+  4    40 ms    17 ms    24 ms  broadband.actcorp.in [183.82.14.78] (Beam Telecom Pvt. Ltd. - AS18209)
+  5    22 ms    17 ms    27 ms  72.14.223.26 (Google LLC - AS15169)
+  6    30 ms    19 ms    20 ms  72.14.234.9 (Google LLC - AS15169)
+  7    21 ms    16 ms    25 ms  209.85.253.85 (Google LLC - AS15169)
+  8    17 ms    15 ms    17 ms  maa05s23-in-f4.1e100.net [142.250.183.228] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.facebook.com
+
+Tracing route to star-mini.c10r.facebook.com [157.240.23.35]
+over a maximum of 30 hops:
+
+  1     3 ms    29 ms     6 ms  192.168.0.1
+  2     7 ms     2 ms     3 ms  10.141.0.1
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5    97 ms    75 ms    57 ms  broadband.actcorp.in [183.82.12.70] (Beam Telecom Pvt. Ltd. - AS18209)
+  6    22 ms    16 ms    17 ms  broadband.actcorp.in [183.82.14.57] (Beam Telecom Pvt. Ltd. - AS18209)
+  7   177 ms   202 ms   374 ms  103.16.203.66 (Beam Telecom Pvt. Ltd. - AS24309)
+  8    20 ms    21 ms    25 ms  ae21.pr01.maa2.tfbnw.net [157.240.81.68] (Facebook, Inc. - AS32934)
+  9    28 ms    60 ms    21 ms  po101.psw01.maa2.tfbnw.net [129.134.34.175] (Facebook, Inc. - AS32934)
+ 10    21 ms    17 ms    20 ms  157.240.38.89 (AS32934)
+ 11    18 ms    16 ms    18 ms  edge-star-mini-shv-01-maa2.facebook.com [157.240.23.35] (Facebook, Inc. - AS32934)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.bbc.com
+
+Tracing route to bbc.map.fastly.net [199.232.104.81]
+over a maximum of 30 hops:
+
+  1     4 ms     6 ms     2 ms  192.168.0.1
+  2    79 ms     2 ms     4 ms  10.141.0.1
+  3     *        *        *     Request timed out.
+  4    10 ms     9 ms     8 ms  broadband.actcorp.in [183.82.14.138] (Beam Telecom Pvt. Ltd. - AS18209)
+  5     6 ms     4 ms     3 ms  140.248.64.144 (Fastly, Inc.)
+  6    38 ms     7 ms     2 ms  199.232.104.81 (Fastly, Inc. - AS54113)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.wikipedia.org
+
+Tracing route to dyna.wikimedia.org [103.102.166.224]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms    <1 ms  192.168.0.1
+  2     5 ms     *       94 ms  10.141.0.1
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5    85 ms    65 ms    66 ms  172.31.167.58
+  6    14 ms    19 ms    13 ms  14.141.123.226.static-Chennai.vsnl.net.in [14.141.123.226] (Tata Communications - AS4755)
+  7   130 ms   108 ms   168 ms  ix-ae-4-2020.tcore1.cxr-chennai.as6453.net [180.87.36.165] (Tata Communications (Canada) - AS6453)
+  8     *        *        *     Request timed out.
+  9    48 ms    55 ms    67 ms  if-be-10-2.ecore2.svq-singapore.as6453.net [180.87.107.0] (Tata Communications (Canada) - AS6453)
+ 10     *        *       58 ms  if-ae-46-2.thar1.svq-singapore.as6453.net [120.29.214.10] (Tata Communications (Canada) - AS6453)
+ 11    45 ms    45 ms    62 ms  if-ae-1-2.thar1.40b-singapore.as6453.net [180.87.98.69] (Tata Communications (Canada) - AS6453)
+ 12    46 ms    46 ms    47 ms  180.87.164.62 (Tata Communications (Canada) - AS6453)
+ 13    45 ms    47 ms    45 ms  text-lb.eqsin.wikimedia.org [103.102.166.224] (Wikimedia Foundation, Inc - AS14907)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.spotify.com
+
+Tracing route to edge-web.dual-gslb.spotify.com [35.186.224.25]
+over a maximum of 30 hops:
+
+  1     4 ms     1 ms     1 ms  192.168.0.1
+  2     6 ms     6 ms     2 ms  10.141.0.1
+  3     6 ms     *        *     broadband.actcorp.in [183.83.249.10] (AS18209 - ACT Pvt. Ltd. / Beam Telecom Pvt. Ltd.)
+  4    17 ms    20 ms    21 ms  broadband.actcorp.in [183.82.14.78] (AS18209 - ACT Pvt. Ltd. / Beam Telecom Pvt. Ltd.)
+  5    27 ms    17 ms    18 ms  72.14.223.26 (Google LLC - AS15169)
+  6    19 ms    17 ms    18 ms  108.170.227.7 (Google LLC - AS15169)
+  7    18 ms    18 ms    18 ms  142.251.55.43 (Google LLC - AS15169)
+  8    21 ms    28 ms    21 ms  25.224.186.35.bc.googleusercontent.com [35.186.224.25] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.twitter.com
+
+Tracing route to twitter.com [104.244.42.193]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms     1 ms  192.168.0.1
+  2     2 ms     5 ms     2 ms  10.141.0.1
+  3     *        *        *     Request timed out.
+  4     *        6 ms     3 ms  14.142.71.49.static-hydrabad.vsnl.net.in [14.142.71.49] (Tata Communications - AS4755)
+  5    13 ms    18 ms    19 ms  172.31.180.57
+  6   172 ms    53 ms    46 ms  ix-ae-2-1334.tcore2.svw-singapore.as6453.net [180.87.15.5] (Tata Communications (Canada) - AS6453)
+  7     *       70 ms     *     if-be-19-2.ecore1.esin4-singapore.as6453.net [180.87.15.113] (Tata Communications (Canada) - AS6453)
+  8    49 ms    48 ms    54 ms  180.87.108.163 (Tata Communications (Canada) - AS6453)
+  9     *        *        *     Request timed out.
+ 10    45 ms    46 ms    46 ms  ae-1.a01.sngpsi07.sg.bb.gin.ntt.net [129.250.2.240] (NTT America - AS2914)
+ 11    47 ms    47 ms    45 ms  xe-0-0-50-3.a01.sngpsi07.sg.ce.gin.ntt.net [116.51.26.110] (NTT Singapore - AS17645)
+ 12    48 ms    48 ms    45 ms  104.244.42.193 (Twitter, Inc. - AS13414)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.whatsapp.com
+
+Tracing route to mmx-ds.cdn.whatsapp.net [157.240.23.53]
+over a maximum of 30 hops:
+
+  1    17 ms     3 ms     7 ms  192.168.0.1
+  2     8 ms     2 ms     5 ms  10.141.0.1
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     4 ms     5 ms     4 ms  broadband.actcorp.in [183.82.12.70] (Beam Telecom Pvt. Ltd. - AS18209)
+  6    17 ms    15 ms    17 ms  broadband.actcorp.in [183.82.14.57] (Beam Telecom Pvt. Ltd. - AS18209)
+  7    76 ms   288 ms   304 ms  103.16.203.66.actcorp.in [103.16.203.66] (Beam Telecom Pvt. Ltd. - AS24309)
+  8    24 ms    19 ms    19 ms  ae21.pr01.maa2.tfbnw.net [157.240.81.68] (Facebook, Inc. - AS32934)
+  9    19 ms    16 ms    16 ms  po101.psw04.maa2.tfbnw.net [129.134.34.181] (Facebook, Inc. - AS32934)
+ 10    17 ms    18 ms    16 ms  173.252.67.169 (Facebook, Inc. - AS32934)
+ 11    20 ms    16 ms    17 ms  whatsapp-cdn-shv-01-maa2.fbcdn.net [157.240.23.53] (Facebook, Inc. - AS32934)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.yahoo.com
+
+Tracing route to new-fp-shed.wg1.b.yahoo.com [202.165.107.49]
+over a maximum of 30 hops:
+
+  1     7 ms     4 ms     9 ms  192.168.0.1
+  2     5 ms     4 ms     8 ms  10.141.0.1
+  3     *        *        *     Request timed out.
+  4    53 ms     *        *     14.142.71.205.static-hydrabad.vsnl.net.in [14.142.71.205] (Tata Communications - AS4755)
+  5    16 ms    12 ms    14 ms  172.31.180.57
+  6    15 ms    13 ms    20 ms  ix-ae-4-2.tcore1.cxr-chennai.as6453.net [180.87.36.9] (Tata Communications (Canada) - AS6453)
+  7     *        *       55 ms  if-be-34-2.ecore2.esin4-singapore.as6453.net [180.87.36.41] (Tata Communications (Canada) - AS6453)
+  8    48 ms    46 ms    47 ms  180.87.54.7 (Tata Communications (Canada) - AS6453)
+  9    55 ms    77 ms    95 ms  unknown.telstraglobal.net [210.57.30.101] (Telstra Global Internet Service - AS4637)
+ 10    55 ms    49 ms    50 ms  ae-5.msr2.sg3.yahoo.com [203.84.209.89] (Telstra Global Internet Service - AS4637)
+ 11    47 ms    45 ms    47 ms  ae-3.clr1-a-gdc.sg3.yahoo.com [106.10.128.7] (Yahoo! SG3 - AS56173)
+ 12    46 ms    46 ms    45 ms  lo0.fab3-3-gdc.sg3.yahoo.com [106.10.131.215] (Yahoo! SG3 - AS56173)
+ 13    45 ms    45 ms    45 ms  lo0.usw1-1-lbd.sg3.yahoo.com [106.10.128.246] (Yahoo! SG3 - AS56173)
+ 14    48 ms    48 ms    56 ms  media-router-fp73.prod.media.vip.sg3.yahoo.com [202.165.107.49] (Yahoo SG3 Data Center - AS56173)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.youtube.com
+
+Tracing route to youtube-ui.l.google.com [142.250.195.142]
+over a maximum of 30 hops:
+
+  1     1 ms    14 ms     6 ms  192.168.0.1
+  2    58 ms    55 ms    60 ms  10.141.0.1
+  3     4 ms     4 ms     *     broadband.actcorp.in [183.83.249.10] (Beam Telecom Pvt. Ltd. - AS18209)
+  4    18 ms    16 ms    16 ms  broadband.actcorp.in [183.82.14.78] (Beam Telecom Pvt. Ltd. - AS18209)
+  5    18 ms    16 ms    16 ms  72.14.223.26 (Google LLC - AS15169)
+  6    20 ms    16 ms    16 ms  108.170.227.7 (Google LLC - AS15169)
+  7    19 ms    16 ms    16 ms  142.251.55.63 (Google LLC - AS15169)
+  8    18 ms    17 ms    17 ms  maa03s40-in-f14.1e100.net [142.250.195.142] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.dropbox.com
+
+Tracing route to www-env.dropbox-dns.com [162.125.81.18]
+over a maximum of 30 hops:
+
+  1     3 ms     1 ms     1 ms  192.168.0.1
+  2     5 ms     2 ms     9 ms  10.141.0.1
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5    25 ms    14 ms    15 ms  172.31.180.57
+  6    70 ms    71 ms    44 ms  ix-ae-2-1334.tcore2.svw-singapore.as6453.net [180.87.15.5] (Tata Communications (Canada) - AS6453)
+  7    47 ms    46 ms    45 ms  if-be-45-2.ecore2.svw-singapore.as6453.net [180.87.15.249] (Tata Communications (Canada) - AS6453)
+  8    45 ms    44 ms    47 ms  unknown.telstraglobal.net [210.57.53.84] (Telstra Global Internet Services Network Blocks - AS4637)
+  9    53 ms    47 ms    47 ms  i-92.sgcn-core01.telstraglobal.net [202.84.219.174] (Telstra Global Internet Services Network Blocks - AS4637)
+ 10   48 ms    46 ms    46 ms  i-91.istt04.telstraglobal.net [202.84.224.197] (Telstra Global Internet Services Network Blocks - AS4637)
+ 11    47 ms    50 ms    47 ms  unknown.telstraglobal.net [210.176.138.253] (Telstra - AS4637)
+ 12    50 ms    45 ms    46 ms  ae1-sin1-ea01.net.dropbox.com [162.125.86.141] (Dropbox, Inc. - AS19679)
+ 13    46 ms    45 ms    47 ms  162.125.81.18 (Dropbox, Inc. - AS19679)
+
+
+
+
+
+
+
+

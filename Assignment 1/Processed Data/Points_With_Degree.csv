@@ -1,0 +1,89 @@
+IP Address of Node,Org. Name - AS Number,Type of Node,Total_Degree
+192.168.0.108,Laptop (Off Campus - WiFi),Source,10
+10.141.0.1,IXP,IXP,20
+183.83.249.10,Beam Telecom - AS18209,Regional ISP,12
+183.82.14.78,Beam Telecom - AS18209,Regional ISP,10
+72.14.223.26,Google LLC - AS15169,Router,20
+72.14.234.9,Google LLC - AS15169,Router,4
+209.85.253.85,Google LLC - AS15169,Router,8
+142.250.183.228,Google LLC - AS15169,Destination,5
+103.16.203.66,Beam Telecom - AS24309,Regional ISP,4
+157.240.81.68,"Facebook, Inc. - AS32934",Router,20
+129.134.34.175,"Facebook, Inc. - AS32934",Router,12
+157.240.38.89,"Facebook, Inc. - AS32934",Router,14
+157.240.23.35,"Facebook, Inc. - AS32934",Destination,5
+140.248.64.144,"Fastly, Inc.",Router,2
+199.232.104.81,"BBC (Fastly, Inc. - AS54113)",Destination,5
+172.31.167.58,IXP,IXP,8
+14.141.123.226,Tata Communications - AS4755,Regional ISP,6
+180.87.36.165,Tata Communications (Canada) - AS6453,Global ISP,8
+180.87.107.0,Tata Communications (Canada) - AS6453,Global ISP,8
+120.29.214.10,Tata Communications (Canada) - AS6453,Global ISP,2
+180.87.98.69,Tata Communications (Canada) - AS6453,Global ISP,6
+180.87.164.62,Tata Communications (Canada) - AS6453,Global ISP,2
+103.102.166.224,"Wikimedia Foundation, Inc. - AS14907",Destination,5
+35.186.224.25,Spotify (Google LLC - AS15169),Destination,5
+129.250.2.240,"NTT America, Inc. - AS2914",Global ISP,2
+116.51.26.110,"NTT Singapore, Inc. - AS17645",Global ISP,2
+104.244.42.193,"Twitter, Inc. - AS13414",Destination,5
+173.252.67.169,"WhatsApp (Facebook, Inc. - AS32934)",Router,6
+157.240.23.53,"WhatsApp (Facebook, Inc. - AS32934)",Destination,5
+210.57.30.101,Telstra Global Internet Service - AS4637,Global ISP,2
+203.84.209.89,Telstra Global Internet Service - AS4637,Global ISP,6
+106.10.128.7,Yahoo! SG3 - AS56173,Router,4
+106.10.131.215,Yahoo! SG3 - AS56173,Router,4
+106.10.128.246,Yahoo! SG3 - AS56173,Router,4
+202.165.107.49,Yahoo SG3 Data Center - AS56173,Destination,5
+108.170.227.7,Google LLC - AS15169,Router,14
+142.251.55.63,Google LLC - AS15169,Router,6
+142.250.195.142,YouTube (Google LLC - AS15169),Destination,5
+210.57.53.84,Telstra Global Internet Services Network Blocks - AS4637,Global ISP,2
+202.84.219.174,Telstra Global Internet Services Network Blocks - AS4637,Global ISP,2
+202.84.224.197,Telstra Global Internet Services Network Blocks - AS4637,Global ISP,2
+210.176.138.253,Telstra - AS4637,Router,2
+162.125.86.141,"Dropbox, Inc. - AS19679",Router,10
+162.125.81.18,"Dropbox, Inc. - AS19679",Destination,5
+192.168.0.102,Laptop (IITH),Source,10
+103.232.241.2,IIT Hyderabad - AS59193,Regional ISP,20
+10.119.254.121,IXP,IXP,20
+10.119.73.122,IXP,IXP,18
+142.251.227.213,Google LLC - AS15169,Router,2
+142.251.55.221,Google LLC - AS15169,Router,2
+157.240.44.31,"Facebook, Inc. - AS32934",Router,2
+115.247.100.29,Reliance Jio InfoComm Ltd. - AS55836,Regional ISP,10
+49.44.187.157,Reliance Jio InfoComm Ltd. - AS55836,Regional ISP,2
+199.59.151.98,"Twitter, Inc. - AS13414",Router,4
+157.240.44.27,"Facebook, Inc. - AS32934",Router,2
+216.239.43.131,Google LLC - AS15169,Router,2
+157.48.84.101,Mobile Hotspot,Source,10
+10.72.211.105,IXP,IXP,20
+172.25.124.208,IXP,IXP,20
+209.85.168.26,Google LLC - AS15169,Router,2
+172.253.69.227,Google LLC - AS15169,Router,2
+108.170.231.79,Google LLC - AS15169,Router,2
+103.198.140.64,Reliance Jio Infocomm Pt. Ltd. (Singapore) - AS64049,Global ISP,8
+27.111.228.186,"Equinix Singapore - AS5511,AS3491,AS4775",Router,6
+49.45.4.82,"Reliance Jio Infocomm Ltd. - AS55836,AS64049",Regional ISP,2
+216.218.252.55,Equinix London (LD8) server (Looking Glass),Source,10
+195.66.224.125,"London Internet Exchange - AS60171,AS12969,AS5511,AS34934,AS3491",IXP,6
+62.115.175.189,Arelion Sweden AB - AS1299,Global ISP,8
+62.115.113.20,Arelion Sweden AB - AS1299,Global ISP,8
+62.115.136.201,Arelion Sweden AB - AS1299,Global ISP,8
+213.248.91.131,Arelion Sweden AB - AS1299,Global ISP,6
+184.104.188.100,Hurricane Electric LLC - AS6939,Global ISP,10
+206.223.116.69,"Equinix, Inc. - AS7029,AS64050",Global ISP,10
+216.115.108.18,"Oath Holdings, Inc. - AS10310",Router,4
+209.191.65.103,"Oath Holdings, Inc. - AS10310",Router,4
+98.136.158.183,"Oath Holdings, Inc. - AS36647",Router,2
+206.223.118.162,"Equinix, Inc. - AS22884,AS53828,AS23404,AS7029,AS46887",Global ISP,4
+216.218.253.63,Equinix Tokyo (LD2) server (Looking Glass),Source,10
+203.190.230.31,"Equinix Japan - AS64050,AS4775",IXP,6
+108.170.242.99,Google LLC - AS15169,Router,4
+209.85.244.2,Google LLC - AS15169,Router,4
+142.250.234.140,Google LLC - AS15169,Router,4
+216.239.43.51,Google LLC - AS15169,Router,2
+210.173.176.152,"AS7713, AS4775",IXP,2
+206.81.80.98,Seattle Internet Exchange,IXP,2
+216.115.105.31,"Oath Holdings, Inc. - AS36647",Router,2
+98.138.51.5,"Oath Holdings, Inc. - AS36647",Router,2
+108.170.242.225,Google LLC - AS15169,Router,2

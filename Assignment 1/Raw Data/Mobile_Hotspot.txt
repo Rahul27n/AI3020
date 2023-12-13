@@ -1,0 +1,208 @@
+157.48.84.101 - IP Address (Laptop using Mobile Hotspot)
+
+PS C:\Users\nelak> tracert -4 www.google.com
+
+Tracing route to www.google.com [142.250.192.4]
+over a maximum of 30 hops:
+
+  1     4 ms     3 ms     5 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3    74 ms    35 ms    49 ms  10.72.211.105
+  4    57 ms    66 ms   333 ms  172.25.124.208
+  5   78 ms    96 ms    67 ms  209.85.168.26 (Google LLC - AS15169)
+  6   212 ms   204 ms   305 ms  172.253.69.227 (Google LLC - AS15169)
+  7   102 ms    77 ms    73 ms  108.170.231.79 (Google LLC - AS15169)
+  8    70 ms    61 ms    78 ms  bom12s14-in-f4.1e100.net [142.250.192.4] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.facebook.com
+
+Tracing route to star-mini.c10r.facebook.com [157.240.23.35]
+over a maximum of 30 hops:
+
+  1     3 ms     3 ms     2 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3    63 ms   312 ms   699 ms  10.72.211.73
+  4    75 ms    27 ms    51 ms  172.25.124.212
+  5   75 ms    61 ms    95 ms  ae0.pr02.maa2.tfbnw.net [157.240.68.92] (Facebook, Inc. - AS32934)
+  6   101 ms    70 ms    88 ms  po102.psw02.maa2.tfbnw.net [129.134.34.153] (Facebook, Inc. - AS32934)
+  7   233 ms   326 ms   563 ms  157.240.38.125 (Facebook, Inc. - AS32934)
+  8  3429 ms   219 ms   286 ms  edge-star-mini-shv-01-maa2.facebook.com [157.240.23.35] (Facebook, Inc. - AS32934)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.bbc.com
+
+Tracing route to bbc.map.fastly.net [151.101.156.81]
+over a maximum of 30 hops:
+
+  1     2 ms     4 ms     2 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3   388 ms    45 ms   279 ms  10.72.211.85
+  4   152 ms   140 ms    77 ms  172.25.124.208
+  5   265 ms    56 ms   461 ms  151.101.156.81 (Fastly, Inc. - AS54113)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.wikipedia.org
+
+Tracing route to dyna.wikimedia.org [103.102.166.224]
+over a maximum of 30 hops:
+
+  1     4 ms     3 ms     3 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3   119 ms    37 ms    41 ms  10.72.211.113
+  4    80 ms    46 ms    49 ms  172.25.124.208
+  5   128 ms    60 ms    73 ms  103.198.140.64 (Reliance Jio Infocomm Pt. Ltd. (Singapore) - AS64049)
+  6  98 ms   108 ms    81 ms  14907.sgw.equinix.com [27.111.228.186] (Equinix Singapore - AS5511,AS3491,AS4775)
+  7  142 ms    99 ms    81 ms  text-lb.eqsin.wikimedia.org [103.102.166.224] (Wikimedia Foundation, Inc - AS14907)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.spotify.com
+
+Tracing route to edge-web.dual-gslb.spotify.com [35.186.224.25]
+over a maximum of 30 hops:
+
+  1     2 ms     1 ms     2 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3    98 ms   741 ms    53 ms  10.72.211.93
+  4   255 ms    35 ms    62 ms  172.25.124.208
+  5    84 ms    64 ms    80 ms  74.125.51.166 (Google LLC - AS15169)
+  6    52 ms    50 ms    66 ms  142.251.76.31 (Google LLC - AS15169)
+  7   61 ms    47 ms    50 ms  142.251.77.99 (Google LLC - AS15169)
+  8   76 ms    62 ms    69 ms  25.224.186.35.bc.googleusercontent.com [35.186.224.25] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.twitter.com
+
+Tracing route to twitter.com [104.244.42.65]
+over a maximum of 30 hops:
+
+  1     3 ms     3 ms     1 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3    45 ms    56 ms    47 ms  10.72.211.73
+  4    72 ms    36 ms   104 ms  172.25.124.208
+  5    93 ms    91 ms    81 ms  103.198.140.209 (Reliance Jio Infocomm Pt. Ltd. (Singapore) - AS64049)
+  6   135 ms    80 ms    82 ms  r-199-59-151-96.twttr.com [199.59.151.96] (Twitter, Inc. - AS13414)
+  7   111 ms    95 ms    93 ms  104.244.42.65 (Twitter, Inc. - AS13414)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.whatsapp.com
+
+Tracing route to mmx-ds.cdn.whatsapp.net [157.240.23.53]
+over a maximum of 30 hops:
+
+  1     2 ms     3 ms     5 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3   103 ms    83 ms    46 ms  10.72.211.85
+  4    59 ms    38 ms    67 ms  172.25.124.206
+  5  128 ms    56 ms    96 ms  ae0.pr02.maa2.tfbnw.net [157.240.68.92] (Facebook, Inc. - AS32934)
+  6  124 ms    72 ms    71 ms  po102.psw02.maa2.tfbnw.net [129.134.34.153] (Facebook, Inc. - AS32934)
+  7    66 ms    82 ms    57 ms  173.252.67.53 (Facebook, Inc. - AS32934)
+  8    60 ms    55 ms    57 ms  whatsapp-cdn-shv-01-maa2.fbcdn.net [157.240.23.53] (Facebook, Inc. - AS32934)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.yahoo.com
+
+Tracing route to new-fp-shed.wg1.b.yahoo.com [202.165.107.49]
+over a maximum of 30 hops:
+
+  1     3 ms     2 ms     5 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3    58 ms    41 ms    36 ms  10.72.211.85
+  4    70 ms    55 ms    44 ms  172.25.124.210
+  5    80 ms   260 ms    83 ms  103.198.140.170 (Reliance Jio Infocomm Pt. Ltd. (Singapore) - AS64049)
+  6   309 ms    79 ms    72 ms  49.45.4.82 (Reliance Jio Infocomm Ltd. - AS55836,AS64049)
+  7   147 ms   119 ms    79 ms  10310.sgw.equinix.com [27.111.228.3] (Equinix Singapore - AS5511,AS3491,AS4775)
+  8   582 ms   670 ms    78 ms  ae-4.msr1.sg3.yahoo.com [203.84.209.75] (Yahoo APAC - AS10310)
+  9   133 ms  1329 ms   423 ms  ae-2.clr1-a-gdc.sg3.yahoo.com [106.10.128.3] (Yahoo! SG3 - AS56173)
+ 10   423 ms    87 ms    86 ms  lo0.fab4-3-gdc.sg3.yahoo.com [106.10.131.214] (Yahoo! SG3 - AS56173)
+ 11   205 ms    97 ms    97 ms  lo0.usw2-1-lbd.sg3.yahoo.com [106.10.128.247] (Yahoo! SG3 - AS56173)
+ 12    85 ms    78 ms   353 ms  media-router-fp73.prod.media.vip.sg3.yahoo.com [202.165.107.49] (Yahoo SG3 Data Center - AS56173)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.youtube.com
+
+Tracing route to youtube-ui.l.google.com [142.250.182.142]
+over a maximum of 30 hops:
+
+  1     2 ms     1 ms     1 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3    81 ms    58 ms    76 ms  10.72.211.77
+  4    72 ms    61 ms   293 ms  172.25.124.208
+  5   95 ms    90 ms    52 ms  74.125.50.202 (Google LLC - AS15169)
+  6   107 ms    61 ms    57 ms  142.251.227.211 (Google LLC - AS15169)
+  7  115 ms   537 ms   300 ms  216.239.56.65(Google LLC - AS15169)
+  8  151 ms    45 ms    63 ms  maa05s22-in-f14.1e100.net [142.250.182.142] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert -4 www.dropbox.com
+
+Tracing route to www-env.dropbox-dns.com [162.125.81.18]
+over a maximum of 30 hops:
+
+  1     2 ms     3 ms     4 ms  192.168.85.39
+  2     *        *        *     Request timed out.
+  3    72 ms   230 ms    62 ms  10.72.211.65
+  4    66 ms    35 ms    38 ms  172.25.124.208
+  5   160 ms    79 ms   115 ms  103.198.140.64 (Reliance Jio Infocomm Pt. Ltd. (Singapore) - AS64049)
+  6   103 ms   487 ms    90 ms  19679.sgw.equinix.com [27.111.229.7] (Equinix Singapore - AS5511,AS3491,AS4775)
+  7    93 ms    86 ms    72 ms  ae1-sin1-ea01.net.dropbox.com [162.125.86.141] (Dropbox, Inc. - AS19679)
+  8    79 ms    86 ms    98 ms  162.125.81.18 (Dropbox, Inc. - AS19679)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

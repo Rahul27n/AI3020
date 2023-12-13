@@ -1,0 +1,219 @@
+192.168.0.102 - IP Address (For Laptop on Campus using Wifi)
+
+PS C:\Users\nelak> tracert www.google.com
+
+Tracing route to www.google.com [142.250.193.100]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms     1 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3    11 ms     4 ms     2 ms  192.168.41.1
+  4     8 ms     1 ms     1 ms  192.168.8.18
+  5     7 ms     2 ms     8 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     7 ms     2 ms     1 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121] 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9    38 ms    33 ms    35 ms  10.119.73.122
+ 10    34 ms    35 ms    33 ms  72.14.195.128 (Google LLC - AS15169)
+ 11    72 ms    34 ms    33 ms  142.251.227.213(Google LLC - AS15169)
+ 12     *       36 ms    34 ms  142.251.55.221 (Google LLC - AS15169)
+ 13    37 ms    35 ms    34 ms  maa05s24-in-f4.1e100.net [142.250.193.100] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.facebook.com
+
+Tracing route to star-mini.c10r.facebook.com [157.240.16.35]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms   129 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3     7 ms     4 ms     5 ms  192.168.41.1
+  4     2 ms     1 ms     1 ms  192.168.8.18
+  5     4 ms     2 ms     2 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     2 ms     1 ms     4 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     *        *        *     Request timed out.
+  8     *       30 ms    28 ms  10.255.232.201
+  9    32 ms    26 ms    27 ms  10.152.7.38
+ 10   120 ms    60 ms    93 ms  ae1.pr01.bom1.tfbnw.net [157.240.68.238] (Facebook, Inc. - AS32934)
+ 11    60 ms   178 ms   178 ms  po101.psw04.bom1.tfbnw.net [157.240.44.31] (Facebook, Inc. - AS32934)
+ 12    26 ms    26 ms    30 ms  157.240.38.227 (Facebook, Inc. - AS32934)
+ 13    25 ms    26 ms    24 ms  edge-star-mini-shv-01-bom1.facebook.com [157.240.16.35] (Facebook, Inc. - AS32934)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.bbc.com
+
+Tracing route to bbc.map.fastly.net [151.101.152.81]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms    <1 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3    91 ms     9 ms     4 ms  192.168.41.1
+  4     5 ms     2 ms     1 ms  192.168.8.18
+  5    13 ms     6 ms     2 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     7 ms     4 ms     1 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     7 ms     7 ms     3 ms  10.160.24.5
+  8     5 ms     4 ms     4 ms  10.255.221.33 (AS12735)
+  9     7 ms     6 ms     5 ms  115.247.100.29 (Reliance Jio Infocomm Ltd. - AS55836)
+ 10   30 ms    29 ms    32 ms  49.44.187.157 (Reliance Jio Infocomm Ltd. - AS55836)
+ 11   32 ms    30 ms    30 ms  151.101.152.81 (Fastly, Inc. - AS54113)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.wikipedia.org
+
+Tracing route to dyna.wikimedia.org [103.102.166.224]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms    <1 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3    42 ms    91 ms     4 ms  192.168.41.1
+  4     2 ms     1 ms     2 ms  192.168.8.19
+  5     2 ms     1 ms     1 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     3 ms     2 ms     2 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     6 ms     5 ms     4 ms  10.160.24.5
+  8    36 ms     4 ms     3 ms  10.255.222.33 (AS12735)
+  9     5 ms     4 ms     8 ms  115.247.100.29 (Reliance Jio Infocomm Ltd. - AS55836)
+ 10    49 ms    50 ms    50 ms  text-lb.eqsin.wikimedia.org [103.102.166.224] (Wikimedia Foundation, Inc - AS14907)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.spotify.com
+
+Tracing route to edge-web.dual-gslb.spotify.com [35.186.224.25]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms    <1 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3    40 ms     2 ms     1 ms  192.168.41.1
+  4     4 ms     3 ms     1 ms  192.168.8.19
+  5     5 ms     1 ms     3 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6    13 ms     6 ms     1 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9    33 ms    33 ms    32 ms  10.119.73.122
+ 10    36 ms    34 ms    34 ms  72.14.213.20 (Google LLC - AS15169)
+ 11    34 ms    34 ms    34 ms  216.239.43.133 (Google LLC - AS15169)
+ 12    34 ms    34 ms    33 ms  142.251.55.75 (Google LLC - AS15169)
+ 13    53 ms    33 ms    32 ms  25.224.186.35.bc.googleusercontent.com [35.186.224.25] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.twitter.com
+
+Tracing route to twitter.com [104.244.42.1]
+over a maximum of 30 hops:
+
+  1     3 ms    <1 ms     3 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3     1 ms     1 ms     1 ms  192.168.41.1
+  4     9 ms     2 ms     1 ms  192.168.8.19
+  5     6 ms     1 ms     2 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     5 ms     2 ms     2 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     8 ms     3 ms     7 ms  10.160.24.5
+  8     5 ms     7 ms     6 ms  10.255.222.33 (AS12735)
+  9     7 ms     5 ms     5 ms  115.247.100.29 (Reliance Jio Infocomm Ltd. - AS55836)
+ 10    52 ms    56 ms    51 ms  r-199-59-151-98.twttr.com [199.59.151.98] (Twitter, Inc. - AS13414)
+ 11    53 ms    49 ms    49 ms  104.244.42.1 (Twitter, Inc. - AS13414)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.whatsapp.com
+
+Tracing route to mmx-ds.cdn.whatsapp.net [157.240.16.52]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms    <1 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3     2 ms     1 ms     6 ms  192.168.41.1
+  4     5 ms     1 ms     3 ms  192.168.8.18
+  5     3 ms     3 ms     6 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     9 ms     1 ms     2 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     *        *        *     Request timed out.
+  8    25 ms    25 ms    27 ms  10.255.232.201
+  9    26 ms    24 ms    25 ms  10.152.7.214
+ 10    31 ms    24 ms    25 ms  10.152.7.233
+ 11    27 ms    27 ms    36 ms  ae2.pr02.bom1.tfbnw.net [157.240.66.204]
+ 12    27 ms    30 ms    25 ms  po102.psw03.bom1.tfbnw.net [157.240.44.27]
+ 13    27 ms    25 ms    25 ms  173.252.67.125
+ 14    26 ms    26 ms    24 ms  whatsapp-cdn-shv-01-bom1.fbcdn.net [157.240.16.52]
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.yahoo.com
+
+Tracing route to new-fp-shed.wg1.b.yahoo.com [202.165.107.49]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms    14 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3    57 ms     4 ms     1 ms  192.168.41.1
+  4    55 ms     1 ms     1 ms  192.168.8.18
+  5     6 ms     2 ms     1 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     4 ms     3 ms     1 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     4 ms     5 ms     5 ms  10.160.24.5
+  8     5 ms     3 ms     3 ms  10.255.221.33 (AS12735)
+  9     6 ms     6 ms     6 ms  115.247.100.29 (Reliance Jio Infocomm Ltd. - AS55836)
+ 10    55 ms    58 ms    61 ms  ae-5.msr2.sg3.yahoo.com [203.84.209.89] (Yahoo APAC - AS10310)
+ 11    56 ms    50 ms    49 ms  ae-3.clr2-a-gdc.sg3.yahoo.com [106.10.128.9] (Yahoo! SG3 - AS56173)
+ 12   51 ms    49 ms    48 ms  lo0.fab4-3-gdc.sg3.yahoo.com [106.10.131.214] (Yahoo! SG3 - AS56173)
+ 13    54 ms    51 ms    51 ms  lo0.usw2-1-lbd.sg3.yahoo.com [106.10.128.247] (Yahoo! SG3 - AS56173)
+ 14    58 ms    56 ms    53 ms  media-router-fp73.prod.media.vip.sg3.yahoo.com [202.165.107.49] (Yahoo SG3 Data Center - AS56173)
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.youtube.com
+
+Tracing route to youtube-ui.l.google.com [142.250.196.14]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms    <1 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3     5 ms     1 ms     3 ms  192.168.41.1
+  4     3 ms     2 ms     2 ms  192.168.8.18
+  5     5 ms     2 ms     1 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     7 ms     2 ms     2 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9    32 ms    57 ms    32 ms  10.119.73.122
+ 10    36 ms    34 ms    34 ms  72.14.195.128 (Google LLC - AS15169)
+ 11    36 ms    33 ms    37 ms  216.239.43.131 (Google LLC - AS15169)
+ 12    33 ms    32 ms    33 ms  142.251.55.41 (Google LLC - AS15169)
+ 13    39 ms    46 ms    33 ms  maa03s44-in-f14.1e100.net [142.250.196.14] (Google LLC - AS15169)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PS C:\Users\nelak> tracert www.dropbox.com
+
+Tracing route to www-env.dropbox-dns.com [162.125.81.18]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms     3 ms  192.168.0.1
+  2     *        *        *     Request timed out.
+  3    11 ms     3 ms     2 ms  192.168.41.1
+  4    13 ms     4 ms     1 ms  192.168.8.18
+  5     5 ms     2 ms    10 ms  noc-cr-in.comp.iith.ac.in [103.232.241.2] (IIT Hyderabad - AS59193)
+  6     4 ms     4 ms     4 ms  noc-cn-in.comp.iith.ac.in [10.119.254.121]
+  7     4 ms     4 ms     4 ms  10.160.24.5
+  8     9 ms     5 ms     6 ms  10.255.222.33 (AS12735)
+  9    12 ms     4 ms     6 ms  115.247.100.29 (Reliance Jio Infocomm Ltd. - AS55836)
+ 10   50 ms    50 ms    49 ms  ae1-sin1-ea01.net.dropbox.com [162.125.86.141] (Dropbox, Inc. - AS19679)
+ 11    60 ms    60 ms    60 ms  162.125.81.18 (Dropbox, Inc. - AS19679)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
